@@ -1,0 +1,54 @@
+{
+  "name": "P0",
+  "description": "RoSA is a robot that helps to shop client items. It receives shopping lists, and scroll through the internet to buy these items. It updates shopping data by sending email to clients as well.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.9.5]",
+    "UiPath.Mail.Activities": "[1.9.5]",
+    "UiPath.System.Activities": "[20.10.4]",
+    "UiPath.UIAutomation.Activities": "[20.10.9]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.7.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "02e17f39-03db-4dd1-8ea6-7359f8598a5a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
