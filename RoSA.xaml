@@ -168,7 +168,7 @@
                     </ui:ForEachRow.Body>
                   </ui:ForEachRow>
                 </Sequence>
-                <ui:WriteRange AddHeaders="True" DataTable="[dt_outPut]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="468,115" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" WorkbookPath="Expense.xlsx">
+                <ui:WriteRange AddHeaders="True" DataTable="[dt_DataTable]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="468,115" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" WorkbookPath="Expense.xlsx">
                   <ui:WriteRange.StartingCell>
                     <InArgument x:TypeArguments="x:String">
                       <Literal x:TypeArguments="x:String" Value="" />
