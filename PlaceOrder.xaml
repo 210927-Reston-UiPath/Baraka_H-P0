@@ -70,18 +70,14 @@
       <Variable x:TypeArguments="sd:DataTable" Name="dtData" />
       <Variable x:TypeArguments="x:String" Name="orderStatus" />
       <Variable x:TypeArguments="x:Int32" Name="orderNumber" />
-      <Variable x:TypeArguments="x:String" Name="strVar1">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">Placed</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="Placed" Name="strVar1" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="497,242" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter the order number to be place " Title="Get Order Number">
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="497,242" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter the order number to be placed: " Title="Get Order Number">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:Int32">[orderNumber]</OutArgument>
       </ui:InputDialog.Result>

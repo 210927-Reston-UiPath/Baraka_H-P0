@@ -1,5 +1,5 @@
 # Baraka_H-andAlfaro_G-P0
- RoSA is a robot that helps to shop client items. It receives shopping lists, and scroll through the internet to buy these items. It updates shopping data by sending email to clients as well.
+ RoSA is a robot that helps to shop client items. It receives shopping lists, and check vendor databases to buy these items. It updates shopping data by sending email to clients. It aslo add  new clients, search for products, and new vendors, restock inventory, and sums up total trip cost.
 ---------------------------------------------------------------------------------------------------------------------------------------
 P0 Requirements
 P0
