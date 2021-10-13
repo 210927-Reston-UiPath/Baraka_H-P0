@@ -3500,15 +3500,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hahme\\.nuget\\packages\\": {}
+    "C:\\Users\\donation\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "P0",
       "projectName": "P0",
-      "projectPath": "C:\\revature\\hbksilver-code\\RPA\\P0\\P0\\.local",
-      "packagesPath": "C:\\Users\\hahme\\.nuget\\packages\\",
-      "outputPath": "C:\\revature\\hbksilver-code\\RPA\\P0\\P0\\.local"
+      "projectPath": "C:\\Users\\donation\\Desktop\\Baraka_H-andAlfaro_G-P0\\.local",
+      "packagesPath": "C:\\Users\\donation\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\donation\\Desktop\\Baraka_H-andAlfaro_G-P0\\.local"
     },
     "frameworks": {
       "net461": {
